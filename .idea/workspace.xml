@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aca6895-0fe0-41be-aedd-09b54b506114" name="Changes" comment="override equals, hashCode, toString">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AccountingCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FinancialCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProgrammableCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ScientificCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
-    </list>
+    <list default="true" id="7aca6895-0fe0-41be-aedd-09b54b506114" name="Changes" comment="create new Calculator classes: simple, financial, accounting, scientist, programming" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684958410876</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create new Calculator classes: simple, financial, accounting, scientist, programming">
+      <created>1684968760169</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684968760169</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +110,7 @@
     <MESSAGE value="workspace update" />
     <MESSAGE value="created classes: circle, rectangle, triangle" />
     <MESSAGE value="override equals, hashCode, toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="override equals, hashCode, toString" />
+    <MESSAGE value="create new Calculator classes: simple, financial, accounting, scientist, programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="create new Calculator classes: simple, financial, accounting, scientist, programming" />
   </component>
 </project>
