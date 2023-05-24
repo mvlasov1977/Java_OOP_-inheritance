@@ -1,5 +1,8 @@
 package org.example;
 import org.example.Shape;
+
+import java.util.Objects;
+
 public class Triangle extends Shape {
     /*
      Створити клас нащадків: triangle, які містять в собі координати точок, необхідних для cтворення цих фігур.
@@ -17,6 +20,7 @@ public class Triangle extends Shape {
                     double secondVertexOfTriangle_X, double secondVertexOfTriangle_Y,
                     double thirdVertexOfTriangle_X, double thirdVertexOfTriangle_Y){
         super();
+        this.myShapeName = "Triangle";
         this.firstVertexOfTriangle_X = firstVertexOfTriangle_X;
         this.firstVertexOfTriangle_Y = firstVertexOfTriangle_Y;
         this.secondVertexOfTriangle_X = secondVertexOfTriangle_X;
@@ -119,5 +123,31 @@ public class Triangle extends Shape {
     @Override
     public void paint() {
         System.out.print("Малюю трикутник... \n");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Triangle triangle = (Triangle) o;
+        return Double.compare(triangle.firstVertexOfTriangle_X, firstVertexOfTriangle_X) == 0 && Double.compare(triangle.firstVertexOfTriangle_Y, firstVertexOfTriangle_Y) == 0 && Double.compare(triangle.secondVertexOfTriangle_X, secondVertexOfTriangle_X) == 0 && Double.compare(triangle.secondVertexOfTriangle_Y, secondVertexOfTriangle_Y) == 0 && Double.compare(triangle.thirdVertexOfTriangle_X, thirdVertexOfTriangle_X) == 0 && Double.compare(triangle.thirdVertexOfTriangle_Y, thirdVertexOfTriangle_Y) == 0 && isTriangle == triangle.isTriangle;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstVertexOfTriangle_X, firstVertexOfTriangle_Y, secondVertexOfTriangle_X, secondVertexOfTriangle_Y, thirdVertexOfTriangle_X, thirdVertexOfTriangle_Y, isTriangle);
+    }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "firstVertexOfTriangle_X=" + firstVertexOfTriangle_X +
+                ", firstVertexOfTriangle_Y=" + firstVertexOfTriangle_Y +
+                ", secondVertexOfTriangle_X=" + secondVertexOfTriangle_X +
+                ", secondVertexOfTriangle_Y=" + secondVertexOfTriangle_Y +
+                ", thirdVertexOfTriangle_X=" + thirdVertexOfTriangle_X +
+                ", thirdVertexOfTriangle_Y=" + thirdVertexOfTriangle_Y +
+                ", isTriangle=" + isTriangle +
+                '}';
     }
 }

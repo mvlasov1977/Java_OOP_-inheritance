@@ -6,10 +6,12 @@ public class Shape {
     Створити суперклас Shape, який буде містити в собі методи: calculateArea(), calculatePerimeter та paint().Та поле color;
      */
 
+    public String myShapeName;
     private Color color;
     public double[] arrayOfSideLengths;
     public Shape(){
         Color color = new Color(255); // default Color
+        this.myShapeName = "Polygon";
     }
 
     public void setColor(Color color) {

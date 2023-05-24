@@ -1,6 +1,8 @@
 package org.example;
 import org.example.Shape;
 import java.math.*;
+import java.util.Objects;
+
 public class Circle extends Shape {
     /*
      Створити клас нащадків: сircle,  які містять в собі координати точок, необхідних для cтворення цих фігур.
@@ -16,6 +18,7 @@ public class Circle extends Shape {
         this.centerX = centerX;
         this.centerY = centerY;
         setRadiusLength(radiusLength);
+        this.myShapeName = "Circle";
     }
 
     public void setRadiusLength(double radiusLength) {
@@ -45,5 +48,27 @@ public class Circle extends Shape {
     @Override
     public void paint() {
         System.out.print("Малюю коло... \n");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Circle circle = (Circle) o;
+        return Double.compare(circle.centerX, centerX) == 0 && Double.compare(circle.centerY, centerY) == 0 && Double.compare(circle.radiusLength, radiusLength) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(centerX, centerY, radiusLength);
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "centerX=" + centerX +
+                ", centerY=" + centerY +
+                ", radiusLength=" + radiusLength +
+                '}';
     }
 }

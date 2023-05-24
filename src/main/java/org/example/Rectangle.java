@@ -1,5 +1,8 @@
 package org.example;
 import org.example.Shape;
+
+import java.util.Objects;
+
 public class Rectangle extends Shape {
     /*
     Створити клас нащадків: rectangle,  які містять в собі координати точок, необхідних для cтворення цих фігур.
@@ -20,6 +23,7 @@ public class Rectangle extends Shape {
                      double thirdVertexOfRectangle_X, double thirdVertexOfRectangle_Y,
                      double fourthVertexOfRectangle_X, double fourthVertexOfRectangle_Y){
         super();
+        this.myShapeName = "Rectangle";
         this.firstVertexOfRectangle_X = firstVertexOfRectangle_X;
         this.firstVertexOfRectangle_Y = firstVertexOfRectangle_Y;
         this.secondVertexOfRectangle_X = secondVertexOfRectangle_X;
@@ -137,5 +141,33 @@ public class Rectangle extends Shape {
     @Override
     public void paint() {
         System.out.print("Малюю прямокутник... \n");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Rectangle rectangle = (Rectangle) o;
+        return Double.compare(rectangle.firstVertexOfRectangle_X, firstVertexOfRectangle_X) == 0 && Double.compare(rectangle.firstVertexOfRectangle_Y, firstVertexOfRectangle_Y) == 0 && Double.compare(rectangle.secondVertexOfRectangle_X, secondVertexOfRectangle_X) == 0 && Double.compare(rectangle.secondVertexOfRectangle_Y, secondVertexOfRectangle_Y) == 0 && Double.compare(rectangle.thirdVertexOfRectangle_X, thirdVertexOfRectangle_X) == 0 && Double.compare(rectangle.thirdVertexOfRectangle_Y, thirdVertexOfRectangle_Y) == 0 && Double.compare(rectangle.fourthVertexOfRectangle_X, fourthVertexOfRectangle_X) == 0 && Double.compare(rectangle.fourthVertexOfRectangle_Y, fourthVertexOfRectangle_Y) == 0 && isRectangle == rectangle.isRectangle;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstVertexOfRectangle_X, firstVertexOfRectangle_Y, secondVertexOfRectangle_X, secondVertexOfRectangle_Y, thirdVertexOfRectangle_X, thirdVertexOfRectangle_Y, fourthVertexOfRectangle_X, fourthVertexOfRectangle_Y, isRectangle);
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "firstVertexOfRectangle_X=" + firstVertexOfRectangle_X +
+                ", firstVertexOfRectangle_Y=" + firstVertexOfRectangle_Y +
+                ", secondVertexOfRectangle_X=" + secondVertexOfRectangle_X +
+                ", secondVertexOfRectangle_Y=" + secondVertexOfRectangle_Y +
+                ", thirdVertexOfRectangle_X=" + thirdVertexOfRectangle_X +
+                ", thirdVertexOfRectangle_Y=" + thirdVertexOfRectangle_Y +
+                ", fourthVertexOfRectangle_X=" + fourthVertexOfRectangle_X +
+                ", fourthVertexOfRectangle_Y=" + fourthVertexOfRectangle_Y +
+                ", isRectangle=" + isRectangle +
+                '}';
     }
 }
