@@ -7,6 +7,7 @@ public class Triangle extends Shape {
     /*
      Створити клас нащадків: triangle, які містять в собі координати точок, необхідних для cтворення цих фігур.
      Перевизначити для класів нащадків необхідні методи
+     Коректно перевизначити методи equals(), hashCode(), toString().
  */
 
     private double firstVertexOfTriangle_X;

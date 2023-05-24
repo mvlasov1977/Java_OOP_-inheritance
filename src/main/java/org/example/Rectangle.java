@@ -7,6 +7,7 @@ public class Rectangle extends Shape {
     /*
     Створити клас нащадків: rectangle,  які містять в собі координати точок, необхідних для cтворення цих фігур.
     Перевизначити для класів нащадків необхідні методи
+    Коректно перевизначити методи equals(), hashCode(), toString().
  */
 
     private double firstVertexOfRectangle_X;
