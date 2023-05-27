@@ -2,7 +2,7 @@ package org.example;
 import org.example.Shape;
 
 import java.util.Objects;
-
+import java.awt.Color;
 public class Rectangle extends Shape {
     /*
     Створити клас нащадків: rectangle,  які містять в собі координати точок, необхідних для cтворення цих фігур.
@@ -33,6 +33,10 @@ public class Rectangle extends Shape {
         this.thirdVertexOfRectangle_Y = thirdVertexOfRectangle_Y;
         this.fourthVertexOfRectangle_X = fourthVertexOfRectangle_X;
         this.fourthVertexOfRectangle_Y = fourthVertexOfRectangle_Y;
+
+        Color defaultColor = new Color(255);
+        this.setColor(defaultColor);
+
         validateRectangleCoordinates();
     }
 
