@@ -1,6 +1,6 @@
 package org.example;
 import org.example.Shape;
-
+import java.awt.Color;
 import java.util.Objects;
 
 public class Triangle extends Shape {
@@ -28,6 +28,10 @@ public class Triangle extends Shape {
         this.secondVertexOfTriangle_Y = secondVertexOfTriangle_Y;
         this.thirdVertexOfTriangle_X = thirdVertexOfTriangle_X;
         this.thirdVertexOfTriangle_Y = thirdVertexOfTriangle_Y;
+
+        Color defaultColor = new Color(255);
+        this.setColor(defaultColor);
+
         validateTriangleCoordinates();
     }
     @Deprecated

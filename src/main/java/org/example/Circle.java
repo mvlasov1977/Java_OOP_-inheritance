@@ -1,5 +1,7 @@
 package org.example;
 import org.example.Shape;
+
+import java.awt.*;
 import java.math.*;
 import java.util.Objects;
 
@@ -14,12 +16,15 @@ public class Circle extends Shape {
     public double centerY;
     private double radiusLength;
 
-    public Circle( double centerX, double centerY, double radiusLength ){
+    public Circle( double centerX, double centerY, double radiusLength){
         super();
         this.centerX = centerX;
         this.centerY = centerY;
         setRadiusLength(radiusLength);
         this.myShapeName = "Circle";
+
+        Color defaultColor = new Color(255);
+        this.setColor(defaultColor);
     }
 
     public void setRadiusLength(double radiusLength) {
@@ -34,7 +39,6 @@ public class Circle extends Shape {
     public double getRadiusLength() {
         return radiusLength;
     }
-
 
     @Override
     public double calculateArea() {
