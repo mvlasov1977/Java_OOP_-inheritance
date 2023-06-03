@@ -1,9 +1,9 @@
 package org.example;
-import java.awt.Color;
-import java.math.*;
 public abstract class Shape {
     /*
     Створити суперклас Shape, який буде містити в собі методи: calculateArea(), calculatePerimeter та paint().Та поле color;
+
+      -- Переробити клас Shape з дз 7, щоб він містив колір в форматы нашого нового Enum Color
      */
 
     public String myShapeName;

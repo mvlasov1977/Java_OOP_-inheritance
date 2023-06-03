@@ -24,6 +24,7 @@ public class Main {
             System.out.println("Type of shape is: " + myShape.myShapeName);
             System.out.println("My perimeter is : " + myShape.calculatePerimeter());
             System.out.println("My area is      : " + myShape.calculateArea());
+            System.out.println(myShape.getColor());
             myShape.paint();
             System.out.println("\n");
         }

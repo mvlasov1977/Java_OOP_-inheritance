@@ -1,8 +1,5 @@
 package org.example;
-import org.example.Shape;
 
-import java.awt.*;
-import java.math.*;
 import java.util.Objects;
 
 public class Circle extends Shape {
@@ -23,8 +20,7 @@ public class Circle extends Shape {
         setRadiusLength(radiusLength);
         this.myShapeName = "Circle";
 
-        Color defaultColor = new Color(255);
-        this.setColor(defaultColor);
+        setColor(Color.BLUE);
     }
 
     public void setRadiusLength(double radiusLength) {

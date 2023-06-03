@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aca6895-0fe0-41be-aedd-09b54b506114" name="Changes" comment="workspace changed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rectangle.java" afterDir="false" />
+    <list default="true" id="7aca6895-0fe0-41be-aedd-09b54b506114" name="Changes" comment="correct import records">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -32,13 +28,31 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="12331d02-d55e-4764-8e1c-75f052a1b4ad" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="12331d02-d55e-4764-8e1c-75f052a1b4ad" />
+        <option name="url" value="https://github.com/mvlasov1977/Java_OOP_inheritance" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -59,6 +73,19 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +130,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684968760169</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="enum Color was added">
+      <created>1685782681545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685782681546</updated>
+    </task>
+    <task id="LOCAL-00007" summary="enum Color was added to Triangle/Circle/Rectangle infrastructure. Print out Shape's color.">
+      <created>1685784238197</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685784238197</updated>
+    </task>
+    <task id="LOCAL-00008" summary="correct import records">
+      <created>1685784369755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685784369755</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +171,9 @@
     <MESSAGE value="created classes: circle, rectangle, triangle" />
     <MESSAGE value="override equals, hashCode, toString" />
     <MESSAGE value="create new Calculator classes: simple, financial, accounting, scientist, programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new Calculator classes: simple, financial, accounting, scientist, programming" />
+    <MESSAGE value="enum Color was added" />
+    <MESSAGE value="enum Color was added to Triangle/Circle/Rectangle infrastructure. Print out Shape's color." />
+    <MESSAGE value="correct import records" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct import records" />
   </component>
 </project>
