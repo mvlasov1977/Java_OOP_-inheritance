@@ -1,5 +1,5 @@
 package org.example;
-import java.awt.Color;
+import org.example.Color;
 import java.math.*;
 public abstract class Shape {
     /*

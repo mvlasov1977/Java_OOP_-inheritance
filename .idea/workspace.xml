@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aca6895-0fe0-41be-aedd-09b54b506114" name="Changes" comment="workspace changed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Color.java" afterDir="false" />
+    <list default="true" id="7aca6895-0fe0-41be-aedd-09b54b506114" name="Changes" comment="enum Color was added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684968760169</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="enum Color was added">
+      <created>1685782681545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685782681546</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +159,7 @@
     <MESSAGE value="created classes: circle, rectangle, triangle" />
     <MESSAGE value="override equals, hashCode, toString" />
     <MESSAGE value="create new Calculator classes: simple, financial, accounting, scientist, programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new Calculator classes: simple, financial, accounting, scientist, programming" />
+    <MESSAGE value="enum Color was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="enum Color was added" />
   </component>
 </project>

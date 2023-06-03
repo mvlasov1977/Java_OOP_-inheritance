@@ -23,8 +23,7 @@ public class Circle extends Shape {
         setRadiusLength(radiusLength);
         this.myShapeName = "Circle";
 
-        Color defaultColor = new Color(255);
-        this.setColor(defaultColor);
+        setColor(Color.BLUE);
     }
 
     public void setRadiusLength(double radiusLength) {
