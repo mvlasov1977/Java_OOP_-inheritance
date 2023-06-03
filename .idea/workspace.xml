@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aca6895-0fe0-41be-aedd-09b54b506114" name="Changes" comment="enum Color was added to Triangle/Circle/Rectangle infrastructure. Print out Shape's color.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
+    <list default="true" id="7aca6895-0fe0-41be-aedd-09b54b506114" name="Changes" comment="correct import records">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685784238197</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="correct import records">
+      <created>1685784369755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685784369755</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +173,7 @@
     <MESSAGE value="create new Calculator classes: simple, financial, accounting, scientist, programming" />
     <MESSAGE value="enum Color was added" />
     <MESSAGE value="enum Color was added to Triangle/Circle/Rectangle infrastructure. Print out Shape's color." />
-    <option name="LAST_COMMIT_MESSAGE" value="enum Color was added to Triangle/Circle/Rectangle infrastructure. Print out Shape's color." />
+    <MESSAGE value="correct import records" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct import records" />
   </component>
 </project>
