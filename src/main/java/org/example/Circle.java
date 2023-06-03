@@ -1,8 +1,5 @@
 package org.example;
-import org.example.Shape;
 
-import java.awt.*;
-import java.math.*;
 import java.util.Objects;
 
 public class Circle extends Shape {

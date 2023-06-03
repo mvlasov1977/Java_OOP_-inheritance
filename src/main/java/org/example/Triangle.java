@@ -1,6 +1,4 @@
 package org.example;
-import org.example.Shape;
-import org.example.Color;
 import java.util.Objects;
 
 public class Triangle extends Shape {
