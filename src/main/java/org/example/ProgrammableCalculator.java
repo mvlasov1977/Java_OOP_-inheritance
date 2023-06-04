@@ -19,12 +19,25 @@ public class ProgrammableCalculator extends ScientificCalculator{
         this.programmingInterface = interfaceType.WINCE;
     }
 
-    public double getArrayOfRegisters(int myArrayIndex) {
-        return arrayOfRegisters[myArrayIndex];
+    public double getArrayOfRegisters(int myArrayIndex) throws ArrayIndexOutOfBoundsException {
+        try {
+            return arrayOfRegisters[myArrayIndex];
+        } catch (ArrayIndexOutOfBoundsException myException){
+            System.out.println("Detect ArrayIndexOutOfBoundsException: " + myException.getMessage() + " operation: 'reading from register' ");
+            System.out.println("register index was: " + myArrayIndex + " ,allow index is 0.." + (arrayOfRegisters.length - 1) );
+            System.out.println("\n");
+            return 0;
+        }
     }
 
-    public void setArrayOfRegisters(int myArrayIndex) {
-        this.arrayOfRegisters[myArrayIndex] = displayValue;
+    public void setArrayOfRegisters(int myArrayIndex) throws ArrayIndexOutOfBoundsException {
+        try {
+            this.arrayOfRegisters[myArrayIndex] = displayValue;
+        } catch (ArrayIndexOutOfBoundsException myException){
+            System.out.println("Detect ArrayIndexOutOfBoundsException: " + myException.getMessage() + " operation: 'saving to register' ");
+            System.out.println("register index was: " + myArrayIndex + " ,allow index is 0.." + (arrayOfRegisters.length - 1) );
+            System.out.println("\n");
+        }
     }
 
     public interfaceType getProgrammingInterface() {
