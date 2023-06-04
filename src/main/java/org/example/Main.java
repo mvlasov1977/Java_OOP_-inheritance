@@ -29,5 +29,13 @@ public class Main {
             System.out.println("\n");
         }
         System.out.println("\n");
+
+        // Перевіряю створені exceptions
+        ProgrammableCalculator myCalculator = new ProgrammableCalculator();
+        myCalculator.setArrayOfRegisters(10);
+        myCalculator.getArrayOfRegisters(10);
+        System.out.println(myCalculator.displayValue);
+
+        // є ще ділення на 0 , група ArithmeticException , але Java сама іх обробляє, конструкцію додав в реалізацію
     }
 }

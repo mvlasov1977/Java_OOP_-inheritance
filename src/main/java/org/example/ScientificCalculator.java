@@ -14,8 +14,15 @@ public class ScientificCalculator extends SimpleCalculator {
         displayValue = displayValue * displayValue;
         return displayValue;
     }
-    public double log10(){
-        displayValue = Math.log10( displayValue );
+    public double log10() throws ArithmeticException{
+        try {
+            displayValue = Math.log10(displayValue);
+        }catch (ArithmeticException myException){
+            displayValue = 0;
+            System.out.println("Detect ArithmeticException: " + myException.getMessage() + " operation: 'decimal logarithm' ");
+            System.out.println("operand is: " + displayValue);
+            System.out.println("\n");
+        }
         return displayValue;
     }
     public double sin(cornerType myCornerType){

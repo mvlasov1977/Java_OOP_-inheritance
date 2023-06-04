@@ -44,8 +44,16 @@ public class Calculator {
         displayValue = firstOperand * secondOperand;
         return displayValue;
     }
-    public double division(){
-        displayValue = firstOperand / secondOperand;
+    public double division() throws ArithmeticException {
+        try {
+            displayValue = firstOperand / secondOperand;
+        }catch (ArithmeticException myException){
+            displayValue = 0;
+            System.out.println("Detect ArithmeticException: " + myException.getMessage() + " operation: 'division' ");
+            System.out.println("first operand is: " + firstOperand);
+            System.out.println("second operand is: " + secondOperand);
+            System.out.println("\n");
+        }
         return displayValue;
     }
 }

@@ -22,8 +22,15 @@ public class SimpleCalculator extends Calculator{
         return memoryRegister;
     }
 
-    public double square(){
-        displayValue = Math.sqrt(displayValue);
+    public double square() throws ArithmeticException {
+        try {
+            displayValue = Math.sqrt(displayValue);
+        } catch (ArithmeticException myException){
+            displayValue = 0;
+            System.out.println("Detect ArithmeticException: " + myException.getMessage() + " operation: 'square root' ");
+            System.out.println("operand is: " + displayValue);
+            System.out.println("\n");
+        }
         return displayValue;
     }
     public double changeToOpposite(){
